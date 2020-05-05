@@ -30,23 +30,23 @@ h4,
 h5,
 h6 {
     font-family: var(--heading-font);
-    color:
+    /* color: */
 }
 
 header {
     padding: 1em;
     text-align: center;
     color: var(--accent2-color);
-    background-color:
+    /* background-color: */
 }
 
 header>h1 {
-    color:
+    /* color: */
 }
 
 p {
     font-family: var(--paragraph-font);
-    color: ;
+    /* color: ; */
     padding: 1em
 }
 
@@ -103,10 +103,10 @@ nav a {
 
 nav a:link,
 nav a:visited {
-    color:
+    /* color: */
 }
 
 nav a:hover {
-    color: ;
-    background-color:
+    /* color: ; */
+    /* background-color: */
 }
