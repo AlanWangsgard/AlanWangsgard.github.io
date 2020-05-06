@@ -40,9 +40,10 @@ header {
     /* background-color: */
 }
 
-header>h1 {
-    /* color: */
-}
+
+/* header>h1 {
+    color:
+} */
 
 p {
     font-family: var(--paragraph-font);
@@ -101,12 +102,13 @@ nav a {
     color: black;
 }
 
-nav a:link,
+
+/* nav a:link,
 nav a:visited {
-    /* color: */
+    color:
 }
 
 nav a:hover {
-    /* color: ; */
-    /* background-color: */
-}
+    color: ;
+    background-color:
+} */
