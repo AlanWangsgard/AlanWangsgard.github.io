@@ -16,3 +16,8 @@ footer {
 a {
     background-color: #5E8C61;
 }
+
+section img {
+    display: block;
+    margin: auto;
+}
