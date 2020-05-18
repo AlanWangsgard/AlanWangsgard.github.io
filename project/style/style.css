@@ -1,10 +1,4 @@
-body {
-    background-color: #94E8B4;
-}
-
-p {
-    background-color: #4E6151;
-}
+/* global */
 
 header,
 main,
@@ -14,37 +8,29 @@ footer {
 }
 
 a {
-    background-color: #5E8C61;
+    background-color: #4E6151;
+    padding-right: 20px;
+    font-size: 20px;
+    color: lightgrey;
 }
 
-section img {
-    display: block;
-    margin: auto;
-}
 
-body {
-    background-color: #bbb;
-    padding: 0;
-    margin: 0;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding: 20px;
-}
+/* header */
 
 header {
-    background-color: #fff;
-    padding: 5px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1rem;
-    padding: 20px;
+    background-color: #4E6151;
+    height: 75px;
+    font-family: 'Caveat', cursive;
+    color: lightgrey;
 }
 
 header img {
-    width: 125px;
-    height: auto;
+    margin-left: 25px;
+    width: 90px;
 }
 
 .headings {
@@ -58,17 +44,33 @@ header img {
     margin: 0;
 }
 
-.motto {
-    font-style: italic;
-    color: forestgreen;
-    font-size: 1rem;
-    letter-spacing: 1.5pt;
+
+/* body */
+
+body {
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding: 20px;
+}
+
+section img {
+    display: block;
+    margin: auto;
 }
 
 .flex-container {
     display: flex;
     justify-content: center;
     margin-left: auto;
+    flex-wrap: nowrap;
+}
+
+nav {
+    background-color: #4E6151;
 }
 
 nav a {
@@ -81,17 +83,39 @@ nav li {
 
 footer p {
     font-size: 1rem;
-    padding: 20px;
-}
-
-main section p {
-    padding: 30px;
-}
-
-main section img {
-    padding: 30px;
+    margin-left: 50px;
 }
 
 .social {
     text-align: right;
+    align-items: right;
+    float: right;
+    margin-left: auto;
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+footer .ft {
+    display: flex;
+    background-color: #4E6151;
+}
+
+footer {
+    background-color: #4E6151;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.tmpl {
+    width: 100%
+}
+
+section {
+    background-color: lightgray;
+    margin-bottom: 0;
+}
+
+main {
+    background-color: lightgray;
+    margin-bottom: 0;
 }
