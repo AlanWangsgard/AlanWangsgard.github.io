@@ -1,7 +1,8 @@
 body {
+    width: 600px;
     font-size: 16px;
     background-color: #fff;
-    margin: 30px;
+    margin: auto;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -82,27 +83,27 @@ body {
 
 .red3 {
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: red;
     grid-column: 1/3;
 }
 
 .green3 {
-    width: 600px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     background-color: green;
 }
 
 .gold3 {
-    width: 600px;
-    height: 400px;
+    width: 250px;
+    height: 200px;
     background-color: gold;
     margin-left: auto;
 }
 
 .blue3 {
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-color: blue;
     grid-column: 1/3;
 }
@@ -151,6 +152,7 @@ body {
     width: 100%;
     height: 150px;
     background-color: red;
+    padding: 20px;
 }
 
 .green5 {
@@ -163,22 +165,23 @@ body {
 }
 
 .gold5 {
-    width: 100%px;
-    height: 600px;
+    width: 100%;
     background-color: gold;
-    padding: 20px;
     justify-content: center;
+    padding: 20px;
 }
 
 .blue5 {
+    clear: both;
     width: 100%;
     height: 150px;
     background-color: blue;
+    padding-left: 40px;
 }
 
 .red6 {
-    width: 500px;
-    height: 200px;
+    width: 200px;
+    height: 100px;
     background-color: red;
     z-index: 2;
     position: relative;
@@ -186,34 +189,34 @@ body {
 }
 
 .green6 {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: green;
     z-index: 4;
     position: relative;
     float: left;
-    top: 500px;
-    right: 500px;
+    top: 200px;
+    right: 200px;
 }
 
 .gold6 {
-    width: 200px;
-    height: 400px;
+    width: 100px;
+    height: 200px;
     background-color: gold;
     z-index: 4;
     position: relative;
     float: left;
-    top: 300px;
-    right: 200px;
+    top: 100px;
+    right: 100px;
 }
 
 .blue6 {
-    width: 500px;
-    height: 500px;
+    width: 200px;
+    height: 200px;
     background-color: blue;
     z-index: 3;
+    right: 350px;
+    top: 50px;
     position: relative;
-    bottom: 300px;
-    left: 100px;
     float: left;
 }
