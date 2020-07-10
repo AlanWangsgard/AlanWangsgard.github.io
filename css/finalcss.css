@@ -2,11 +2,17 @@ body {
     background-color: #00A5E0;
     width: 960px;
     margin: auto;
-    box-shadow: 1px 1px 1px 3px #ccc;
+}
+
+hr {
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 2px;
 }
 
 header {
-    background-color: #A6B1E1;
+    background-color: lightslategray;
     display: grid;
     padding: 10px;
     border: 2px solid gray;
@@ -76,7 +82,7 @@ nav a:hover {
 /* begin main content */
 
 .main {
-    background-color: #A6B1E1;
+    background-color: lightgrey;
     padding-bottom: 20px;
 }
 
@@ -112,7 +118,7 @@ nav a:hover {
 /* begin footer */
 
 footer {
-    background-color: #A6B1E1;
+    background-color: lightslategray;
     border: 1px solid gray;
 }
 
@@ -120,4 +126,23 @@ footer {
     text-align: center;
     margin: 0;
     padding: 10px;
+}
+
+.con {
+    margin-left: 165px;
+}
+
+.conn {
+    margin-left: 165px;
+    text-decoration: none;
+    color: black;
+}
+
+.conn:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+footer img {
+    width: 20px;
 }
