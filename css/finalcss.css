@@ -2,14 +2,15 @@ body {
     background-color: #00A5E0;
     width: 960px;
     margin: auto;
-    padding: 20px;
+    box-shadow: 1px 1px 1px 3px #ccc;
 }
 
 header {
     background-color: #A6B1E1;
     display: grid;
     padding: 10px;
-    border: 2px solid black;
+    border: 2px solid gray;
+    font-family: "lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 header img {
@@ -19,14 +20,13 @@ header img {
 .hd1 {
     grid-column: 1;
     grid-row: 1;
-    margin-left: 20px;
     display: grid;
 }
 
 .hd1 h2 {
     grid-row: 1;
     grid-column: 2/3;
-    font-size: 30px;
+    font-size: 25px;
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 20px;
@@ -59,6 +59,16 @@ nav li {
     padding: 10px;
 }
 
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
 
 /* end header */
 
@@ -67,6 +77,23 @@ nav li {
 
 .main {
     background-color: #A6B1E1;
+    padding-bottom: 20px;
+}
+
+.main p,
+.main h2 {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.main h2 {
+    font-size: 35px;
+    font-family: 'Comic Neue';
+}
+
+.main p {
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
 }
 
 .hro {
@@ -86,4 +113,11 @@ nav li {
 
 footer {
     background-color: #A6B1E1;
+    border: 1px solid gray;
+}
+
+.copy {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
