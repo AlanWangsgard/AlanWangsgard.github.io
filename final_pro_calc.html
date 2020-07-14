@@ -23,6 +23,38 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div class="info">
+            <img>
+            <h2>What is bmi?</h2>
+            <p></p>
+            <img>
+            <h2>What can I do with my percentages?</h2>
+            <p></p>
+            <img>
+            <h2>Why is this relavent?</h2>
+            <p></p>
+        </div>
+        <div class="calc">
+            <div class="bmi">
+                <h2>Calculate your BMI</h2>
+                <p>What is your height in inches?</p>
+                <input id="height" type="number" name="height">
+                <p>What is your weight in pounds</p>
+                <input id="weight" type="number" name="weight"> <br>
+                <button onclick="bmi()">Calculate</button>
+                <button onclick="reset()">Reset</button>
+                <p id="result1"></p>
+            </div>
+            <div class="set">
+                <h2>Calculate Your Sets</h2>
+                <p>What is Your 1 Rep Max?</p>
+                <input id="max" type="number" name="max"><br>
+                <button onclick="perc()">Calculate</button>
+                <p id="result2"></p>
+            </div>
+        </div>
+    </main>
     <footer>
         <p class="con">Contact Us: <br> <img src="images/phone.png" alt="phone"> 777-777-7777 <br> <img src="images/email.png" alt="email"> A+Fitness@gmail.com</p>
         <a class="conn" href="final-site-plan.html">Final Site Plan</a>
@@ -30,6 +62,38 @@
         <p class="copy">Copyright © 2020 A+ Fitness | All Rights Reserved | Privacy and Cookie Statement | Alan Wangsgard
         </p>
     </footer>
+    <script>
+        function bmi() {
+            var a = document.getElementById("height").value;
+            var b = document.getElementById("weight").value;
+            var c = 703 * (b / (a * a));
+            var d = c.toFixed(2)
+            document.getElementById("result1").innerHTML = d;
+        }
+
+        function reset() {
+            document.getElementById("result1").innerHTML = "";
+        }
+
+        function perc() {
+            var a = document.getElementById("max").value;
+            var i = a * .95;
+            var j = a * .90;
+            var k = a * .85;
+            var l = a * .80;
+            var m = a * .75;
+            var n = a * .70;
+            var o = a * .65;
+            var b = i.toFixed(2);
+            var c = j.toFixed(2);
+            var d = k.toFixed(2);
+            var e = l.toFixed(2);
+            var f = m.toFixed(2);
+            var g = n.toFixed(2);
+            var h = o.toFixed(2);
+            document.getElementById("result2").innerHTML = "Your max: " + a + "<br>" + " 95% is: " + b + "<br>" + "90% is: " + c + "<br>" + " 85% is: " + d + "<br>" + " 80% is: " + e + "<br>" + " 75% is: " + f + "<br>" + " 70% is: " + g + "<br>" + " 65% is: " + h;
+        }
+    </script>
 </body>
 
 </html>

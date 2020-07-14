@@ -146,3 +146,74 @@ footer {
 footer img {
     width: 20px;
 }
+
+
+/* faq page */
+
+.faqm {
+    display: grid;
+    grid-gap: 10px;
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.faqm h2 {
+    border: 2px solid gray;
+    text-align: center;
+    margin: 0;
+}
+
+.faqm p {
+    border: 2px solid gray;
+    margin: 0;
+}
+
+main img {
+    width: 100%;
+}
+
+main {
+    max-width: 960px;
+    background-color: lightgray;
+}
+
+.one {
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 10px;
+}
+
+.two {
+    grid-row: 1;
+    grid-column: 2;
+    margin-right: 10px;
+}
+
+
+/* end faq */
+
+
+/* begin calculators */
+
+.calc {
+    display: grid;
+}
+
+.set {
+    grid-row: 1;
+    grid-column: 2;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.bmi {
+    grid-row: 1;
+    grid-column: 1;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.bmi button {
+    padding: 5px;
+    margin: 7px;
+}
