@@ -2,6 +2,7 @@ body {
     background-color: #00A5E0;
     width: 960px;
     margin: auto;
+    font-family: 'Comic Neue';
 }
 
 hr {
@@ -16,7 +17,6 @@ header {
     display: grid;
     padding: 10px;
     border: 2px solid gray;
-    font-family: "lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 header img {
@@ -220,4 +220,19 @@ main {
 .bmi button {
     padding: 5px;
     margin: 7px;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info p,
+.info h2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.set button {
+    margin: 10px;
+    padding: 7px;
 }
